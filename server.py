@@ -2,7 +2,7 @@ from flask import Flask, render_template, url_for, request, flash, redirect
 app = Flask(__name__)
 import csv
 
-@app.route('/')
+@app.route('/')gi
 def hello_world():
     return render_template('index.html')
 def write_to_file(data):
